@@ -22,7 +22,7 @@ app.get('/blog', (req, res) => {
 // mongoose.connect('mongodb+srv://admin:admin@zuitt-course-booking.a1svtt9.mongodb.net/DATABASENAME?retryWrites=true&w=majority')
 
 // Database connection to MongoDB
-mongoose.connect('mongodb+srv://admin:admin@zuitt-course-booking.a1svtt9.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('')
   .then(() => {
     console.log('connected to MongoDB')
     // Server running in terminal
